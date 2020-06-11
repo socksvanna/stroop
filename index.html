@@ -9,9 +9,11 @@
                
       </style>
       <script> 
-          function change_order(passed) {
-              document.getElementById('').value=passed;   
+          function showorder {
+             var totalOrder=  document.getElementById('pizzanumber').value;
+              alert(totalOrder);
           }
+          
       </script> 
         <title>STROOP</title>
         <link rel="stylesheet" href="https://socksvanna.github.io/stroop/stroop.css">
@@ -21,6 +23,7 @@
       <h3> Helped by Jibo Zhang</h3>
       <form> 
            How many pizzas: <input type = "text" id= "pizzanumber">
+           <input type = button value ='checkoder' onclick="showorder()"> 
            <input type=text id='show' class='hiden'> 
     </body>
   </head>
