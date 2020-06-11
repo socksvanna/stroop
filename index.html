@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 
 <html>
+
     
   <head>
+       <style>
+           .hiden {display:none;}
+               
+      </style>
+      <script> 
+          function change_order(passed) {
+              document.getElementById('').value=passed;   
+          }
+      </script> 
         <title>STROOP</title>
         <link rel="stylesheet" href="https://socksvanna.github.io/stroop/stroop.css">
     <body>
@@ -10,8 +20,8 @@
       <h2> By Maggie Zhang </h2>
       <h3> Helped by Jibo Zhang</h3>
       <form> 
-           How many pizzas: <input type = "text" id = "pizzanumber">
-        </form> 
+           How many pizzas: <input type = "text" id= "pizzanumber">
+           <input type=text id='show' class='hiden'> 
     </body>
   </head>
     
