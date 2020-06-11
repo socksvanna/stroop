@@ -5,15 +5,15 @@
     
   <head>
        <style>
-           .hiden {display:none;}
+           .hidden {display:none;}
                
       </style>
       <script> 
           function showorder () {
              var totalOrder=  document.getElementById('pizzanumber').value;
               
-              
-            alert(totalOrder);
+              document.getElementById('show').value = totalOrder;
+              document.getElementById('show').style.display = 'block';
               
              
           }
@@ -28,7 +28,7 @@
       <form> 
            How many pizzas: <input type = "text" id= "pizzanumber">
            <input type = button value ='checkoder' onclick="showorder()"> 
-           <input type=text id='show' value = '7'> 
+           <input type=text id='show' style='hidden' > 
     </body>
   </head>
     
