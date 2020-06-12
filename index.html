@@ -11,9 +11,9 @@
       </style>
       <script> 
           function showorder () {
-             var totalOrder=  document.getElementById('pizzanumber').value;
+             var totalOrder=  document.getElementById('strooporder').value;
               
-              document.getElementById('show').value = 'You have ordered ' + totalOrder + ' pizzas';
+              document.getElementById('show').value = 'You have ordered ' + totalOrder + ' stroopwaffels!';
               document.getElementById('show').style.display = 'block';
       
              
@@ -23,11 +23,11 @@
         <title>STROOP</title>
         <link rel="stylesheet" href="https://socksvanna.github.io/stroop/stroop.css">
     <body>
-      <h1> Hello World</h1>
-      <h2> By Maggie Zhang </h2>
+      <h1> STROOP </h1>
+      <h2> Stroopwaffel whenever you want </h2>
       <h3> Helped by Jibo Zhang</h3>
       <form> 
-           How many pizzas: <input type = "text" id= "pizzanumber">
+           How many stroopwaffels ya want?: <input type = "text" id= "strooporder">
            <input type = button value ='checkoder' onclick="showorder()"> 
            <input type='text' id='show' class='hidden' >
     </body>
