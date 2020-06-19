@@ -28,7 +28,7 @@ body{
 .small_dots{
     position: absolute;
         bottom: 8px;
-        right: 100px;
+        left: 100px;
     z-index: -1;
 }
 
