@@ -29,6 +29,8 @@ div.small_dots{
 }
 
 h1 {
+    position: relative
+        left: 500px
     color: #222;
     font-weight: 600;
     line-height: 1.3;
@@ -37,5 +39,7 @@ h1 {
 
 
 h2{
+    position: absolute
+        left: 500px
     color:red
 }
