@@ -8,20 +8,20 @@ body{
     background: linear-gradient(180deg, rgba(226,170,97,1) 0%, rgba(246,216,177,1) 100%);}
 }
 
-stroop_image{
+div.stroop_image{
     position: absolute
         left: 500px
     z_index: 5
 }
 
-big_dots{
+div.big_dots{
     position: relative
         bottom: 500px
         left: 500px
     z-index: -1
 }
 
-small_dots{
+div.small_dots{
     position: relative
         top: 500px
         right: 500px
