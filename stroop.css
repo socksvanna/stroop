@@ -8,6 +8,17 @@ body{
     background: linear-gradient(180deg, rgba(226,170,97,1) 0%, rgba(246,216,177,1) 100%);}
 }
 
+stroop_image {
+    z_index: 5
+}
+
+big_dots{
+    z-index: -1
+}
+
+small_dots{
+    z-index: -1
+}
 
 h1 {
     color: #222;
