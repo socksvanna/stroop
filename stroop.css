@@ -18,6 +18,7 @@ body{
 
 .stroop_image{
     position: absolute;
+    margin-top: 100px;
     margin-left: 100px;
     height: auto;  
     z_index: 5;
@@ -25,14 +26,15 @@ body{
 
 .big_dots{
     position: absolute;
-        top: 20px;
-        left: 16px;
+    margin-top: 20px; 
+    margin-left: 20px;
     z-index: -1;
 }
 
 .small_dots{
     position: absolute;
-        left: 100px;
+    margin-top: 300px;
+    margin-left: 500px;
     z-index: -1;
     display: block;
 }
