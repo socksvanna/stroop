@@ -2,9 +2,18 @@
 
 <html>
  
+<style>
+  .hidden {display:none;}
+</style>
 
-
-    
+ <script> 
+          function showorder () {
+             var totalOrder=  document.getElementById('strooporder').value;
+              
+              document.getElementById('show').value = 'You have ordered ' + totalOrder + ' stroopwaffels!';
+              document.getElementById('show').style.display = 'block';
+ </script> 
+ 
 <head>
         <title>STROOP</title>
         <link rel="stylesheet" href="https://socksvanna.github.io/stroop/stroop.css">
@@ -12,8 +21,9 @@
  
 <body>
   <div class = "container">
+      <div class = "stroop_image"> <img src="https://i.imgur.com/rb6dbaR.png" title="source: imgur.com" /></a> </div>
       <div class = "big_dots"> <img src = "https://imgur.com/Zusl8kE.png" title = "big dots"/> </div> 
-      </div class = "small_dots"> <img src= "https://imgur.com/hZnQ1Ax.png" title = "small dots"/></a> </div>
+      <div class = "small_dots"> <img src= "https://imgur.com/hZnQ1Ax.png" title = "small dots"/></a> </div>
   </div>
 
 <div class = "text_container">
