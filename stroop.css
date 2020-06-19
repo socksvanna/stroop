@@ -14,7 +14,7 @@ body{
 
 .stroop_image{
     position: absolute;
-    left: 20px;
+    left: 100px;
     width:100%
     height: auto;  
     z_index: 5;
