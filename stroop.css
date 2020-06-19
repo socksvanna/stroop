@@ -25,8 +25,8 @@ body{
 
 .big_dots{
     position: absolute;
-    margin-top: 20px; 
-    margin-left: 20px;
+    margin-top: 50px; 
+    margin-left: 50px;
     height: auto;
     z-index: -1;
 }
