@@ -15,10 +15,10 @@ body{
 }
 
 .big_dots{
-    position: fixed
-        bottom: 500px
-        left: 500px
-    z-index: -1
+    position: absolute;
+        top: 500px;
+        left: 500px;
+    z-index: -1;
 }
 
 .small_dots{
