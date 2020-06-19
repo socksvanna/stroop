@@ -6,6 +6,7 @@ body{
     background-size: cover; 
     background: rgb(400,201,97,1);
     background: linear-gradient(180deg, rgba(400,201,97,1) 0%, rgba(400,201,97,1,1) 100%);}
+    display: inline;
 }
 
 .container{
