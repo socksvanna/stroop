@@ -13,6 +13,8 @@ body{
 }
 
 .stroop_image{
+    position: absolute;
+    left: 20px;
     width:100%
     height: auto;  
     z_index: 5;
