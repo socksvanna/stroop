@@ -17,6 +17,7 @@ body{
 }
 
 .stroop_image{
+    position: absolute;
     margin-left: 100px;
     height: auto;  
     z_index: 5;
