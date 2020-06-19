@@ -10,11 +10,14 @@ body{
 
 .container{
     position: relative;
+    width: 1000px;
+    height: 800px;
 }
 
 .stroop_image{
-    position: relative;
-        left: 100px;
+    position: absolute;
+        top: 200px
+        left: 500px;
         width:100%;
     height: auto;  
     z_index: 5;
@@ -22,7 +25,7 @@ body{
 
 .big_dots{
     position: absolute;
-        top: 8px;
+        top: 20px;
         left: 16px;
     z-index: -1;
 }
@@ -30,7 +33,7 @@ body{
 .small_dots{
     position: absolute;
         bottom: 8px;
-        left: 100px;
+        right: 100px;
     z-index: -1;
 }
 
