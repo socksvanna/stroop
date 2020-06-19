@@ -9,14 +9,22 @@ body{
 }
 
 stroop_image {
+    positiion: absolute
+        left: 100px
     z_index: 5
 }
 
 big_dots{
+    position: relative
+        bottom: 50px
+        left: 50px
     z-index: -1
 }
 
 small_dots{
+    position: relative
+        top: 50px
+        right: 100px
     z-index: -1
 }
 
