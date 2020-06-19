@@ -8,7 +8,7 @@ body{
     background: linear-gradient(180deg, rgba(226,170,97,1) 0%, rgba(246,216,177,1) 100%);}
 }
 
-stroop_image {
+stroop_image{
     position: absolute
         left: 500px
     z_index: 5
