@@ -18,8 +18,8 @@ body{
 
 .stroop_image{
     position: absolute;
-        top: 200px
-        left: 500px;
+        top: 20px
+        left: 20px
         width:100%;
     height: auto;  
     z_index: 5;
@@ -34,8 +34,7 @@ body{
 
 .small_dots{
     position: absolute;
-        top: 80%;
-        left: 80%;
+        left: 100px;
     z-index: -1;
     display: block;
 }
