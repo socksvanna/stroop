@@ -8,12 +8,8 @@ body{
     background: linear-gradient(180deg, rgba(226,170,97,1) 0%, rgba(246,216,177,1) 100%);}
 }
 
-.container {
-    position: relative;
-}
-
 .stroop_image{
-    position: absolute;
+    position: relative;
         left: 100px;
         width:100%;
     height: auto;  
