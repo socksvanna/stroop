@@ -9,27 +9,27 @@ body{
 }
 
 div.stroop_image{
-    position: absolute
+    position: fixed
         left: 500px
     z_index: 5
 }
 
 div.big_dots{
-    position: relative
+    position: fixed
         bottom: 500px
         left: 500px
     z-index: -1
 }
 
 div.small_dots{
-    position: relative
+    position: fixed
         top: 500px
         right: 500px
     z-index: -1
 }
 
 h1 {
-    position: relative
+    position: fixed
         left: 500px
     color: #222;
     font-weight: 600;
@@ -39,7 +39,7 @@ h1 {
 
 
 h2{
-    position: absolute
+    position: fixed
         left: 500px
     color:red
 }
