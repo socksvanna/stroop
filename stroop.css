@@ -8,22 +8,26 @@ body{
     background: linear-gradient(180deg, rgba(226,170,97,1) 0%, rgba(246,216,177,1) 100%);}
 }
 
+.container {
+    position: relative;
+}
+
 .stroop_image{
-    position: fixed;
-        left: 500px;
+    width:100%
+    height: auto;  
     z_index: 5;
 }
 
 .big_dots{
     position: absolute;
-        top: 500px;
-        left: 500px;
+        top: 8px;
+        left: 16px;
     z-index: -1;
 }
 
 .small_dots{
-    position: fixed;
-        top: 500px;
+    position: absolute;
+        top: bottom:;
         right: 500px;
     z-index: -1;
 }
