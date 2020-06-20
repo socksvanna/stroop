@@ -6,6 +6,7 @@ body{
     background-size: cover; 
     background: rgb(226,170,97);
 	background: linear-gradient(180deg, rgba(226,170,97,1) 0%, rgba(246,216,177,1) 100%);
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -38,12 +39,6 @@ body{
     height: auto;
     z-index: -1;
 }
-	
-
-.text_container{
-    font-family: 'Courier New', monospace;
-}
-    
     
 .h1 {
     color: #222;
